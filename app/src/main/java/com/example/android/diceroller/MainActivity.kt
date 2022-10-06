@@ -36,5 +36,9 @@ class MainActivity : AppCompatActivity() {
         }
 
     }
-   
+    private fun rollDice() {
+        val randomInt: Int = Random.nextInt(6) + 1
+        val resultText: TextView = findViewById(R.id.result_text)
+        resultText.text = randomInt.toString()
+    }
 }
