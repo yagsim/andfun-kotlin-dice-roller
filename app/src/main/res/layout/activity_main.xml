@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="163dp"
         android:layout_marginTop="297dp"
-        android:text="Button"
+        android:text="@string/roll"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
