@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">Dice Roller</string>
     <string name="roll">Tirar dado</string>
+    <string name="roll_text">Programa dado</string>
 </resources>
