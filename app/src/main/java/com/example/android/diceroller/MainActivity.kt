@@ -36,8 +36,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show()
             rollDice()
         }
-
-
+        diceImage=findViewById(R.id.dice_image)
     }
     private fun rollDice() {
         val randomInt: Int = Random.nextInt(6) + 1
